@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TLV3802DSSR")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_TLV3802DSSR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "SN65MLVD206BD")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_SN65MLVD206BD/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "SN65LVDT348D")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_SN65LVDT348D/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "RJHSE508002")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/RJHSE508002")(options "")(descr ""))
+  (lib (name "EPL_00_250_NTN")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/EPL_00_250_NTN/KiCADv6/footprints.pretty")(options "")(descr ""))
+)
