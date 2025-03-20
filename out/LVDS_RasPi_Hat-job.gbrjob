@@ -3,31 +3,38 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.6"
+      "Version": "9.0.0-9.0.0-2~ubuntu24.04.1"
     },
-    "CreationDate": "2025-01-14T13:26:05-05:00"
+    "CreationDate": "2025-03-20T03:38:20-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "LVDS_RasPi_Hat",
       "GUID": "4c564453-5f52-4617-9350-695f4861742e",
-      "Revision": "rev?"
+      "Revision": "2"
     },
     "Size": {
-      "X": 72.05,
-      "Y": 67.05
+      "X": 50.85,
+      "Y": 58.47
     },
-    "LayerNumber": 2,
-    "BoardThickness": 1.6,
-    "Finish": "None"
+    "LayerNumber": 4,
+    "BoardThickness": 1.5418,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.19,
-      "PadToTrack": 0.19,
-      "TrackToTrack": 0.19,
-      "MinLineWidth": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.1753
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.127,
       "TrackToRegion": 0.25,
       "RegionToRegion": 0.25
     }
@@ -39,8 +46,18 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "LVDS_RasPi_Hat-In1_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "LVDS_RasPi_Hat-In2_Cu.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "LVDS_RasPi_Hat-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -77,11 +94,22 @@
       "Path": "LVDS_RasPi_Hat-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "LVDS_RasPi_Hat-StencilEdge_Cuts.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "LVDS_RasPi_Hat-FrameEdge_Cuts.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Top Silk Screen"
     },
     {
@@ -90,29 +118,64 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
+      "Color": "R80G0B80",
+      "Thickness": 0.0152,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0432,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
-      "Material": "FR4",
-      "Name": "F.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+      "Color": "R109G116B75",
+      "Thickness": 0.1999,
+      "Material": "FR408-HR",
+      "DielectricConstant": "3.69",
+      "LossTangent": "0.0091",
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0173,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.9906,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0173,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.1999,
+      "Material": "FR408-HR",
+      "DielectricConstant": "3.69",
+      "LossTangent": "0.0091",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0432,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
+      "Color": "R80G0B80",
+      "Thickness": 0.0152,
       "Name": "Bottom Solder Mask"
     },
     {

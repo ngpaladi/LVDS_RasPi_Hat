@@ -1,7 +1,7 @@
 (footprint "D0008A_N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "SN65MLVD206BD ")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "279cd59b-be25-44a5-a960-96b21438cac2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1326,49 +1316,61 @@
 	(pad "1" smd oval
 		(at -2.725001 -1.905 90)
 		(size 0.599999 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "adaf4c4d-d00b-4339-873e-9f910c3e1904")
 	)
 	(pad "2" smd oval
 		(at -2.725001 -0.635 90)
 		(size 0.599999 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ac56f02-8151-48d5-a34f-22a83b52c043")
 	)
 	(pad "3" smd oval
 		(at -2.725001 0.635 90)
 		(size 0.599999 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d707c74-42e7-4476-9b53-37a77220bee1")
 	)
 	(pad "4" smd oval
 		(at -2.725001 1.905 90)
 		(size 0.599999 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d33dc00b-8053-404d-85d8-dc6525f0b880")
 	)
 	(pad "5" smd oval
 		(at 2.724998 1.905 90)
 		(size 0.599999 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "72760f34-764f-4d67-b974-a8ab6494efa1")
 	)
 	(pad "6" smd oval
 		(at 2.724998 0.635 90)
 		(size 0.599999 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a63817c-05fe-4917-a062-f9b6a214f9f3")
 	)
 	(pad "7" smd oval
 		(at 2.724998 -0.635 90)
 		(size 0.599999 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "211a0240-79e6-4cf8-ae79-23ee87abe175")
 	)
 	(pad "8" smd oval
 		(at 2.724998 -1.905 90)
 		(size 0.599999 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c9d66d51-0d14-430a-8eaa-a096386ee77d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

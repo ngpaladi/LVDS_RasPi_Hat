@@ -5,4 +5,6 @@
   (lib (name "SN65LVDT348D")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/ul_SN65LVDT348D/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "RJHSE508002")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/RJHSE508002")(options "")(descr ""))
   (lib (name "EPL_00_250_NTN")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/EPL_00_250_NTN/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "DMN26D0UT_7")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/DMN26D0UT_7/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "219_8LPST")(type "KiCad")(uri "${KIPRJMOD}/project_libraries/219_8LPST/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
